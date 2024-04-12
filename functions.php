@@ -5,7 +5,7 @@
 
   // Создаем подготовленное выражение для выборки ссылок
   $stmt = $conn->prepare("SELECT * FROM links WHERE title LIKE ?");
-
+//del this text
   // Связываем параметр подготовленного выражения со строкой запроса
   $stmt->bind_param('s', $query);
 
